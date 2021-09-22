@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<style>
+    h2{
+      text-align: center;
+      font-size: 30px;
+   
+      border-radius: 12px ;
+      margin-top: 20px;
+    
+      height: 50px;
+      justify-content: center;
+      font-family: 'Poppins';
+      color: rgb(41, 23, 209);
+    }
+    form {
+        margin-left: 40px;
+        padding: 50px 50px 50px 50px;
+        margin: 10px 10px 10px 10px;
+        box-sizing: border-box 500px 100px;
+        font-family:'Poppins';
+        font-weight: bold;
+        font-size: 18px;
+        font-feature-settings: "vrt2";
+        color: #110f0e;
+    }
+    .button1{
+
+        background-color: rgb(99, 45, 224);
+        padding: 5px;
+        height: 30px;
+        width: 200px;
+        border-radius: 10px;
+        box-shadow: .2px .2px  .2px  .2px ;
+        color:white;
+        
+    }
+
+    body{
+
+        background-repeat: no-repeat;
+        background-size: 1600px 940px;
+    }
+    
+    </style>
+<body background="/img/india-8.jpg">
+    <div>
+        <h2>Bharat Seva Registration </h2>
+    </div>
+    <div style="size: 700px 500px; ">
+        <form >
+            <label for="name">Full Name : </label>
+            <input type="text" placeholder="Name as on Adhar Card" name="name"  style="padding: 10px; border-radius: 12px; background: grid-row ;;;border-color: rgba(46, 224, 23, 0.938);"> <br><br>
+
+            <label for="add">Address : </label> <br>
+            <textarea name="add" id="" cols="50" rows="5" placeholder="Address as on Adhar Card"  style="padding: 10px; border-radius: 12px;background: grid-row;border-color: rgba(46, 224, 23, 0.938);"></textarea><br><br>
+
+            <label for="city">City : </label>
+            <input type="text" name="city"  style="padding: 10px; border-radius: 12px;background: grid-row;border-color: rgba(46, 224, 23, 0.938);"> <br><br>
+
+            <label for="state">State : </label>
+            <select name="state" id="state" style="padding: 10px; border-radius: 12px;background: grid-row;border-color: rgba(46, 224, 23, 0.938);">
+                <option>None</option>
+                <option>Andaman and Nicobar Islands</option>
+                <option>Andhra Pradesh</option>
+                <option>Arunachal Pradesh</option>
+                <option>Assam</option>
+                <option>Bihar</option>
+                <option>Chandigarh</option>
+                <option>Chhattisgarh</option>
+                <option>Dadra and Nagar Haveli</option>
+                <option>Daman and Diu</option>
+                <option>Delhi</option>
+                <option>Goa</option>
+                <option>Gujarat</option>
+                <option>Haryana</option>
+                <option>Himachal Pradesh</option>
+                <option>Jammu and Kashmir</option>
+                <option>Jharkhand</option>
+                <option>Karnataka</option>
+                <option>Kerala</option>
+                <option>Lakshadweep</option>
+                <option>Madhya Pradesh</option>
+                <option>Maharashtra</option>
+                <option>Manipur</option>
+                <option>Meghalaya</option>
+                <option>Mizoram</option>
+                <option>Nagaland</option>
+                <option>Odisha</option>
+                <option>Pondicherry</option>
+                <option>Punjab</option>
+                <option>Rajasthan</option>
+                <option>Sikkim</option>
+                <option>Tamil Nadu</option>
+                <option>Telangana</option>
+                <option>Tripura</option>
+                <option>Uttar Pradesh</option>
+                <option>Uttarakhand</option>
+                <option>West Bengal</option>
+                <option></option>
+            </select>
+            <br><br>
+
+            <label for="adhar">Adhar Card Number : </label>
+            <input type="text" placeholder="12 digit number" name="adhar" style="padding: 10px; border-radius: 12px;background: grid-row;border-color: rgba(46, 224, 23, 0.938);"> <br><br>
+
+            <label for="mobno">Mobile Number : </label>
+            <input type="text" placeholder="Linked with Adhar Card" name="mobno" style="padding: 10px; border-radius: 12px;background: grid-row; border-color: rgba(46, 224, 23, 0.938);"> <br><br>
+
+            <label for="email">Email ID: </label>
+            <input type="text" name="email" style="padding: 10px; border-radius: 12px;background: grid-row;border-color: rgba(46, 224, 23, 0.938);"> <br><br>
+
+            <label for="occ">Occupation : </label>
+            <select name="occ" id="occ"  style="padding: 10px; border-radius: 12px;background: grid-row;border-color: rgba(46, 224, 23, 0.938);">
+                <option>Doctor</option>
+                <option>Neurse</option>
+                <option>Ward Boy</option>
+                <option>Driver</option>
+                <option>None of the above</option>
+            </select><br><br>
+
+            <div id="wrapper">
+                <label for="yes_no_radio">Would you like to serve for your Country ?</ label>
+                    <p>
+                        <input type="checkbox" required name="yes_no" checked ">Yes</input>
+                    </p>
+
+
+                    <br><br>
+                  <button class="button button1">Get Yourself Registered</button>   
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>

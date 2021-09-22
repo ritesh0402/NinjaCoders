@@ -1,0 +1,1037 @@
+* {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+/* ::-webkit-scrollbar-button:single-button {
+    background-color: rgba(27, 27, 27, 0.658);
+    height: 16px;
+    width: 16px;
+} */
+
+::-webkit-scrollbar-thumb {
+    background: rgb(56, 56, 56);
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(50, 207, 255);
+}
+
+::-webkit-scrollbar-corner{
+    background: rgb(116, 199, 255) ;
+    display: solid;
+}
+
+
+
+
+
+
+/* ______________________________________________________HEADER_______________________________________________________ */
+
+.header {
+    position: fixed;
+    top: 0px;
+    height: 80px;
+    width: 100%;
+    background-image: url(img/bluebackground.jpg);
+    background-size: cover;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+}
+#logo {
+    position: absolute;
+    left: 30px;
+    display: flex;
+    height: 80px;
+    width: 60px;
+    background-color: transparent;
+}
+
+.nav {
+    position: absolute;
+    right: 30px;
+    height: 60px;
+    width: 700px;
+    display: flex;
+    float: right;
+    /* background-color: yellowgreen; */
+    align-items: center;
+}
+
+
+.ul {
+    padding: 0px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ul > li {
+    list-style: none ;
+    justify-content: space-around;
+}
+
+.ul > li > a {
+    padding: 10px 20px 10px 20px ;
+    border-radius: 8px;
+    color: white;
+    font-size: medium;
+    text-decoration: none ;
+    margin: 1px ;
+    background-color: rgba(92, 92, 92, 0.603);
+}
+
+
+.ul > li > a:hover {
+    background-color: rgba(141, 141, 141, 0.603);
+}
+
+
+/* ___________________________________________________________________________________________________________________ */
+
+/* ______________________________________________________MAIN_________________________________________________________ */
+
+.main {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height: 2180px;
+    background-color: teal;
+}
+
+#home {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 595px;
+    background-image: url(img/healthcare.jpg);
+    /* background-blend-mode: color; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.donations {
+    position: absolute; top: 450px;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(34, 34, 34, 0.712);
+    display: flex;
+}
+
+.pmcares {
+    position: absolute; left: 50%; top: 5%;
+    margin-left: -350px;
+    height: 90%;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: rgba(92, 92, 92, 0.603);
+    border-radius: 10px;
+}
+
+.pmcares:hover {
+    background-color: rgba(141, 141, 141, 0.603);
+}
+
+.pmcares > a {
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    font-weight: 500;
+}
+
+.ndmafund > a {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 100%;
+    font-weight: 500;
+}
+
+
+.ndmafund {
+    position: absolute; left: 50%; top: 5%;
+    margin-left: 150px;
+    height: 90%;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: rgba(92, 92, 92, 0.603);    border-radius: 10px;
+}
+
+.ndmafund:hover {
+    background-color: rgba(141, 141, 141, 0.603);
+}
+
+#services {
+    padding: 0px;
+    position: absolute;
+    top: 595px;
+    width: 100%;
+    height: 575px;
+    background-image: url(img/bluebackground.jpg);
+    background-size: 100%;
+    background-repeat: repeat-y;
+    flex-wrap: wrap;
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    margin: 0px 10px;
+    height: 350px;
+    width: 300px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards:hover {
+    cursor: pointer;
+}
+
+.card1 {
+    background-image: url(img/covishield.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card2 {
+    background-image: url(img/ndrf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card3 {
+    background-image: url(img/medicalequipment2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card4{
+    background-image: url(img/volunteer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardtitle {
+    align-self: center;
+    width: 80%;
+    height: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.603);
+}
+
+.cards:hover {
+    transition: 0.2s;
+    box-shadow: 12px 12px 2px 1px rgba(63, 63, 63, 0.5);
+}
+
+
+#news {
+    position: absolute;
+    top: 1170px;
+    height: 500px;
+    width: 100%;
+    background-image: url(img/bluebackground.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.newsheading {
+    color: black;
+    font-size: 45px;
+    align-items: center;
+    display: flex;
+    float: left;
+    height: 150px;
+    width: 360px;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+.newspara {
+    position: absolute; top: 130px;
+    right: 10%;
+    border-radius: 10px;
+    background-color: white;
+    height: 300px;
+    width: 60%;
+    align-self: center;
+    overflow: hidden;
+}
+
+.newspara > p {
+    margin: 20px 30px;
+}
+
+.newspara > ul {
+    position: absolute;
+    left: 10px; top: 50%;
+    margin-top: -125px;
+    line-height: 30px;
+    width: 90%;
+    height: 250px;
+}
+
+#aboutus {
+    position: absolute;
+    top: 1670px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background-image: url(img/bluebackground.jpg);
+    background-size: cover;
+}
+
+.aboutusheading {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width: 300px;
+    font-size: 45px;
+    justify-content: center;
+}
+
+.aboutuspara {
+    position: absolute; top: 130px;
+    right: 10%;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    height: 300px;
+    width: 60%;
+    align-self: center;
+    font-size: large;
+    overflow: hidden;
+}
+
+.aboutuspara > p {
+    margin: 10px 20px 10px 20px;
+}
+
+/* ___________________________________________________________________________________________________________________ */
+
+/* _______________________________________________________FOOTER______________________________________________________ */
+
+#footer {
+    position: absolute;
+    top: 2250px;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(img/bluebackground.jpg);
+    background-size: cover;
+}
+
+#contact {
+    position: absolute; top: 0px; left: 0px;
+    height: 460px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot {
+    background-color: rgb(129, 129, 129);
+    width: 300px;
+    height: 340px;
+    margin: 30px 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.fh2 {
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    width: 300px;
+    color: white;
+}
+
+.hr {
+    position: absolute; left: 50%; top: 40px; 
+    margin-left: -125px;
+    width: 250px;
+    height: 2px;
+    background-color: white;
+}
+
+.links {
+    width: 300px;
+}
+
+.links > ul {
+    width: 250px;
+    height: 200px;
+    position: relative; top: 90px; left: 50px;
+    padding: 0px;
+}
+
+.links > ul > li > a {
+    text-decoration: none;
+    width: 220px;
+    font-size: medium;
+    font-weight: 500;
+    color: rgb(18, 233, 233);
+}
+
+
+.contactinfo {
+    display: flex; justify-content: center;
+}
+
+.contactinfo > address {
+    position: absolute; top: 160px;
+    height: 210px;
+    width: 240px;
+    font-size: medium;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.contactinfo > address > a {
+    color: rgb(18, 233, 233);
+}
+
+.form {
+    position: absolute;
+    top: 145px;
+    width: 300px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+}
+
+.form > label {
+    width: 300px;
+    height: 230px;
+    display: block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.form > label > p {
+    width: 80%;
+    text-align: left;
+    position: absolute; top: 105px;
+    font-size: large;
+}
+
+.emailinput {
+    position: absolute;
+    top: 140px; left: 50%;
+    margin-left: -120px;
+    width: 240px;
+    height: 23px;
+    border-radius: 5px;
+    border: solid black 1px;
+}
+
+.submit {
+    position: absolute;
+    top: 185px; left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    height: 35px;
+    font-size: medium;
+    border-radius: 5px;
+    border: solid black 1px;
+}
+
+.socialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialmedia > p {
+    position: relative; top: 32px;
+    padding: 10px 0px 0px 10px;
+    width: 235px;
+    height: 225px;
+    /* background-color: rgba(0, 0, 0, 0.164); */
+    border-radius: 10px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 22px;
+    height: 22px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+  
+
+  .licence {
+    position: absolute;
+    top: 460px;
+    background-color: rgba(20, 20, 20, 0.808);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.licence > h4 {
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-weight: 300;
+}
+
+
+/* ___________________________________responsiveness________________________________________________________________________________ */
+
+@media only screen and (max-width: 1280px) {
+    .main {
+        height: 3485px;
+    }
+    
+    #services {
+        height: 900px;
+    }
+
+    .card1 {
+        position: absolute; left: 50%; top: 75px;
+        margin-left: -500px;
+    }
+    
+    .card2 {
+        position: absolute; left: 50%; top: 75px;
+        margin-left: -150px;
+    }
+    
+    
+    .card3 {
+        position: absolute; left: 50%; top: 75px;
+        margin-left: 200px;
+    }
+    
+    
+    .card4{
+        position: absolute; left: 50%; top: 475px;
+        margin-left: -150px;
+    }
+
+    #news {
+        position: absolute; top: 1495px;
+    }
+
+    #aboutus {
+        position: absolute; top: 1995px;
+    }
+    
+    #footer {
+        position: absolute; top: 2575px;
+        height: 990px;
+    } 
+
+    #contact {
+        height: 900px;
+    }
+
+    .foot {
+        display: flex;
+    }
+
+    .fh2 {
+        position: absolute; top: 30px;
+    }
+
+    .links {
+        position: absolute; top: 80px; left: 50%;
+        margin: 0px 0px 0px -500px;
+        padding: 0px;
+    }
+
+    .links > ul {
+        position: relative; top: 90px; left: 50px;
+
+    }
+
+    .socialmedia {
+        position: absolute; top: 80px; left: 50%;
+        margin: 0px 0px 0px -150px;
+        padding: 0px;
+    }
+
+    .contactinfo {
+        position: absolute; top: 80px; left: 50%;
+        margin: 0px 0px 0px 200px;
+        padding: 0px;
+    }
+
+    .contactinfo > address {
+        position: absolute; top: 100px;
+    }
+
+    .newsletter {
+        position: absolute; top: 490px; left: 50%;
+        margin: 0px 0px 0px -150px;
+        padding: 0px;
+    }
+
+    .form > label {
+        position: absolute; top: -60px;
+    }
+
+    .licence {
+        position: absolute; top: 900px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 1050px) {
+    .main {
+        height: 3485px;
+    }
+    
+    #services {
+        height: 900px;
+    }
+
+    .card1 {
+        position: absolute; left: 50%; top: 75px;
+        margin-left: -325px;
+    }
+    
+    .card2 {
+        position: absolute; left: 50%; top: 75px;
+        margin-left: 25px;
+    }
+    
+    
+    .card3 {
+        position: absolute; left: 50%; top: 475px;
+        margin-left: -325px;
+    }
+    
+    
+    .card4{
+        position: absolute; left: 50%; top: 475px;
+        margin-left: 25px;
+    }
+
+    #news {
+        position: absolute; top: 1495px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .newspara {
+        position: absolute; left: 10%;
+        width: 80%;
+    }
+
+    #aboutus {
+        position: absolute; top: 1995px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutuspara {
+        position: absolute; left: 10%;
+        width: 80%;
+    }
+    
+    #footer {
+        position: absolute; top: 2575px;
+        height: 990px;
+    } 
+
+    #contact {
+        height: 900px;
+    }
+
+    .foot {
+        display: flex;
+    }
+
+    .fh2 {
+        position: absolute; top: 30px;
+    }
+
+    .links {
+        position: absolute; top: 80px; left: 50%;
+        margin: 0px 0px 0px -325px;
+        padding: 0px;
+    }
+
+    .links > ul {
+        position: relative; top: 90px; left: 50px;
+
+    }
+
+    .socialmedia {
+        position: absolute; top: 80px; left: 50%;
+        margin: 0px 0px 0px 25px;
+        padding: 0px;
+    }
+
+    .contactinfo {
+        position: absolute; top: 490px; left: 50%;
+        margin: 0px 0px 0px -325px;
+        padding: 0px;
+    }
+
+    .contactinfo > address {
+        position: absolute; top: 100px;
+    }
+
+    .newsletter {
+        position: absolute; top: 490px; left: 50%;
+        margin: 0px 0px 0px 25px;
+        padding: 0px;
+    }
+
+    .form > label {
+        position: absolute; top: -60px;
+    }
+
+    .licence {
+        position: absolute; top: 900px;
+    }
+
+
+}
+
+@media only screen and (max-width: 940px) {
+    .hide {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        height: 45px; width: 60px;
+        flex-direction: column;
+        position: absolute; top: 18px; right: 25px; 
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        border-radius: 7px;
+        background-color: rgba(92, 92, 92, 0.603);
+    }
+
+    .burger :hover {
+        background-color: rgb(173, 171, 171);
+    }
+
+    .burger:active {
+        background-color: rgba(70, 70, 70, 0.603);
+    }
+
+    .line {
+        width: 32px; height: 4px;
+        margin: 3px 3px;
+        background-color: rgb(245, 245, 245);
+
+    }
+
+    .nav {
+        width: fit-content;
+    }
+
+    .hamnav {
+        position: absolute; right: 100px; top: 10px;
+        align-items: center;
+        overflow: visible;
+    }
+
+    .hamnav > ul{
+        position: absolute;top: 22px; right: 40%;
+        width: 300px;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        height: 350px;
+        align-items: center;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+    
+    .hamnav > ul > li {
+        margin-left: 0px;
+        background-color: transparent;
+        width: 75%;
+        line-height: 40px;
+        list-style: none;
+        margin-top: 10px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .hamnav > ul > li:hover {
+        background-color: rgba(206, 206, 206, 0.712);
+    }
+    
+    .hamnav > ul > li > a {
+        width: fit-content;
+        text-decoration: none;
+        font-size: x-large;
+        height: 60px;
+        background-color: transparent;
+        color: rgba(0, 0, 0, 0.76);
+        font-weight: 500;
+    }
+    
+    .hamnav > ul > li > a :hover {
+        color: white;
+        transition: 0.3s;
+    }
+
+    .newspara {
+        font-size: medium;
+    }
+
+    .aboutuspara {
+        font-size: medium;
+    }
+
+    .pmcares {
+        margin-left: -250px;
+    }
+
+    .ndmafund {
+        margin-left: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .newspara {
+        font-size: small;
+    }
+
+    .aboutuspara {
+        font-size: small;
+    }
+
+    .burger {
+        height: 40px; width: 50px;
+    }
+
+    .donations {
+        position: absolute; top: 350px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pmcares {
+        position: relative; top: 8px;
+        height: 90px;
+        margin-left: -100px;
+    }
+
+    .ndmafund {
+        position: relative; top: 15px;
+        height: 90px;
+        margin-left: -100px;
+
+    }
+
+    .main {
+        height: 4885px;
+    }
+    
+    #services {
+        height: 1700px;
+    }
+
+    .card1 {
+        position: absolute; left: 50%; top: 75px;
+        margin-left: -150px;
+    }
+    
+    .card2 {
+        position: absolute; left: 50%; top: 475px;
+        margin-left: -150px;
+    }
+    
+    
+    .card3 {
+        position: absolute; left: 50%; top: 875px;
+        margin-left: -150px;
+    }
+    
+    
+    .card4{
+        position: absolute; left: 50%; top: 1275px;
+        margin-left: -150px;
+    }
+
+    #news {
+        position: absolute; top: 2295px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .newspara {
+        position: absolute; left: 10%;
+        width: 80%;
+    }
+
+    .newspara > ul {
+        position: relative; left: -10px; top: 140px;
+    }
+
+    #aboutus {
+        position: absolute; top: 2795px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutuspara {
+        position: absolute; left: 10%;
+        width: 80%;
+    }
+    
+    #footer {
+        position: absolute; top: 3375px;
+        height: 1690px;
+        background-size: 100%;
+        background-repeat: repeat-y;
+    } 
+
+    #contact {
+        height: 1690px;
+    }
+
+    .foot {
+        display: flex;
+    }
+
+    .fh2 {
+        position: absolute; top: 30px;
+    }
+
+    .links {
+        position: absolute; top: 80px; left: 50%;
+        margin: 0px 0px 0px -150px;
+        padding: 0px;
+    }
+
+    .links > ul {
+        position: relative; top: 90px; left: 50px;
+
+    }
+
+    .socialmedia {
+        position: absolute; top: 480px; left: 50%;
+        margin: 0px 0px 0px -150px;
+        padding: 0px;
+    }
+
+    .contactinfo {
+        position: absolute; top: 880px; left: 50%;
+        margin: 0px 0px 0px -150px;
+        padding: 0px;
+    }
+
+    .contactinfo > address {
+        position: absolute; top: 100px;
+    }
+
+    .newsletter {
+        position: absolute; top: 1280px; left: 50%;
+        margin: 0px 0px 0px -150px;
+        padding: 0px;
+    }
+
+    .form > label {
+        position: absolute; top: -60px;
+    }
+
+    .licence {
+        position: absolute; top: 1690px;
+    }
+
+
+}
