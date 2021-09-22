@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration</title>
+    <title>Sign Up</title>
 </head>
 <style>
-    h2{
+    h1{
       text-align: center;
       font-size: 30px;
    
@@ -17,7 +17,7 @@
       height: 50px;
       justify-content: center;
       font-family: 'Poppins';
-      color: rgb(41, 23, 209);
+      color: darkblue;
     }
     form {
         margin-left: 40px;
@@ -30,42 +30,45 @@
         font-feature-settings: "vrt2";
         color: #110f0e;
     }
-    .button1{
-
-        background-color: rgb(99, 45, 224);
-        padding: 5px;
-        height: 30px;
-        width: 200px;
-        border-radius: 10px;
-        box-shadow: .2px .2px  .2px  .2px ;
-        color:white;
-        
+    .button1 {
+        text-align: center;
+        font-size: 30px;
+        border-radius: 12px;
+        font-family: 'Poppins';
+        margin-top: 20px;
+        height: 50px;
+        justify-content: center;
+        background-color: darkblue;
+        box-shadow: .2px .2px .2px .2px;
+        color: white;
     }
 
-    body{
-
+    body {
+        text-align: center;
+        font-size: 30px;
+        border-radius: 12px;
+        margin-top: 20px;
+        height: 50px;
+        justify-content: center;
         background-repeat: no-repeat;
         background-size: 1600px 940px;
+        background-color: skyblue;
     }
     
     </style>
-<body background="/img/india-8.jpg">
+<body>
     <div>
-        <h2>Bharat Seva Registration </h2>
+        <h1>Sign Up for your account </h1>
     </div>
-    <div style="size: 700px 500px; ">
+    <div style=" size: 700px 500px; ">
         <form >
             <label for="name">Full Name : </label>
-            <input type="text" placeholder="Name as on Adhar Card" name="name"  style="padding: 10px; border-radius: 12px; background: grid-row ;;;border-color: rgba(46, 224, 23, 0.938);"> <br><br>
-
-            <label for="add">Address : </label> <br>
-            <textarea name="add" id="" cols="50" rows="5" placeholder="Address as on Adhar Card"  style="padding: 10px; border-radius: 12px;background: grid-row;border-color: rgba(46, 224, 23, 0.938);"></textarea><br><br>
-
+            <input type="text" name="name"  style="padding: 10px; border-radius: 12px; background: grid-row ;;;border-color: rgba(46, 224, 23, 0.938);"> <br><br>
             <label for="city">City : </label>
             <input type="text" name="city"  style="padding: 10px; border-radius: 12px;background: grid-row;border-color: rgba(46, 224, 23, 0.938);"> <br><br>
 
             <label for="state">State : </label>
-            <select name="state" id="state" style="padding: 10px; border-radius: 12px;background: grid-row;border-color: rgba(46, 224, 23, 0.938);">
+            <select name="state" style="font-family:Verdana" id="state" style="padding: 10px; border-radius: 12px;background: grid-row;border-color: rgba(46, 224, 23, 0.938);">
                 <option>None</option>
                 <option>Andaman and Nicobar Islands</option>
                 <option>Andhra Pradesh</option>
@@ -106,34 +109,21 @@
                 <option></option>
             </select>
             <br><br>
-
-            <label for="adhar">Adhar Card Number : </label>
-            <input type="text" placeholder="12 digit number" name="adhar" style="padding: 10px; border-radius: 12px;background: grid-row;border-color: rgba(46, 224, 23, 0.938);"> <br><br>
-
+            <label for="gender"> Gender: </label>
+            <input type="radio" name="gender" required dirname="yes_no">Female</input>
+            <input type="radio"name="gender" required dirname="yes_no" > Male </input>
+            <input type="radio" name="gender" required dirname="yes_no"> Other </input>
+            <br><br>
             <label for="mobno">Mobile Number : </label>
-            <input type="text" placeholder="Linked with Adhar Card" name="mobno" style="padding: 10px; border-radius: 12px;background: grid-row; border-color: rgba(46, 224, 23, 0.938);"> <br><br>
+            <input type="text" name="mobno" style="padding: 10px; border-radius: 12px;background: grid-row; border-color: rgba(46, 224, 23, 0.938);"> <br><br>
 
             <label for="email">Email ID: </label>
             <input type="text" name="email" style="padding: 10px; border-radius: 12px;background: grid-row;border-color: rgba(46, 224, 23, 0.938);"> <br><br>
-
-            <label for="occ">Occupation : </label>
-            <select name="occ" id="occ"  style="padding: 10px; border-radius: 12px;background: grid-row;border-color: rgba(46, 224, 23, 0.938);">
-                <option>Doctor</option>
-                <option>Neurse</option>
-                <option>Ward Boy</option>
-                <option>Driver</option>
-                <option>None of the above</option>
-            </select><br><br>
+            </select>
 
             <div id="wrapper">
-                <label for="yes_no_radio">Would you like to serve for your Country ?</ label>
-                    <p>
-                        <input type="checkbox" required name="yes_no" checked ">Yes</input>
-                    </p>
-
-
                     <br><br>
-                  <button class="button button1">Get Yourself Registered</button>   
+                  <button class="button button1">SIGN UP</button>   
         </form>
     </div>
 
