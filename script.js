@@ -11,17 +11,17 @@ burger.addEventListener("click", ()=>{
 })
 
 card1.addEventListener("click", ()=>{
-    window.location.href = 'https://www.cowin.gov.in/home';
+    window.location.href = 'https://youtu.be/pQN-pnXPaVg';
 })
 
 card2.addEventListener("click", ()=>{
-    window.location.href = 'https://ndma.gov.in/';
+    window.location.href = 'https://youtu.be/PkZNo7MFNFg';
 })
 
 card3.addEventListener("click", ()=>{
-    window.location.href = 'SubPages/Smit.html';
+    window.location.href = 'https://youtu.be/4UZrsTqkcW4';
 })
 
 card4.addEventListener("click", ()=>{
-    window.location.href = 'SubPages/voluntary_help_page.html';
+    window.location.href = 'https://youtu.be/oD3miHerQbY';
 })
